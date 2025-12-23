@@ -1,0 +1,24 @@
+{
+  "devices": {
+    "device001": {
+      "deviceName": "Akıllı İlaç Kutusu",
+      "status": "OFFLINE",
+      "lastSeen": 1702375000000,
+      "liveData": {
+        "sensor1": {
+          "name": "Compartment 1",
+          "rawValue": 0,
+          "currentPillCount": 0,
+          "measureNow": false
+        }
+      },
+      "config": {
+        "sensor1": {
+          "rawBaseValue": 0,
+          "averagePillRaw": 0,
+          "dosePerPill": 500
+        }
+      }
+    }
+  }
+}

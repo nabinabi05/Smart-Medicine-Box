@@ -1,0 +1,50 @@
+{
+  "rules": {
+    "devices": {
+      ".read": true,
+      ".write": true,
+      "$deviceId": {
+        "liveData": {
+          ".read": true,
+          ".write": true
+        },
+        "config": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    },
+    "users": {
+      "$userId": {
+        ".read": true,
+        ".write": true,
+        "devices": {
+          ".read": true,
+          ".write": true
+        },
+        "schedules": {
+          ".read": true,
+          ".write": true
+        },
+        "fcmToken": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    },
+    "notificationTriggers": {
+      "$userId": {
+        ".read": true,
+        ".write": true
+      }
+    },
+    "doseHistory": {
+      ".read": true,
+      ".write": true
+    },
+    "authLogs": {
+      ".read": "auth != null",
+      ".write": true
+    }
+  }
+}
