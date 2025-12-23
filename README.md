@@ -39,7 +39,6 @@ flutter pub get
 
 ```bash
 # FlutterFire CLI'yi yükleyin
-
 dart pub global activate flutterfire_cli
 
 # Firebase projesini yapılandırın
